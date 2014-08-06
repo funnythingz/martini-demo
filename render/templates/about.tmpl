@@ -1,6 +1,17 @@
 <div class="container">
 
   <h1>{{.Title}}</h1>
-  <p class="lead">{{.Description}}</p>
+
+  <dl>
+    <dt>Name:</dt>
+    <dd>{{.Profile.Name}}</dd>
+  </dl>
+
+  <dl>
+    <dt>Skill:</dt>
+    {{range .Profile.Skill}}
+    <dd>{{.}}</dd>
+    {{end}}
+  </dl>
 
 </div>

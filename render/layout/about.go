@@ -4,16 +4,28 @@ import(
     "github.com/martini-contrib/render"
 )
 
+type Profile struct {
+    Name string
+    Skill []string
+}
+
 type AboutViewModel struct {
     Title string
-    Description string
+    Profile Profile
 }
 
 func AboutRender(r render.Render) {
 
+    skill := []string{"TypeScript", "Sass/Compass", "Go"}
+
+    profile := Profile{
+        "funnythingz",
+        skill,
+    }
+
     viewModel := AboutViewModel{
-        "About",
-        "description",
+        "About me",
+        profile,
     }
 
     r.HTML(200, "about", viewModel)
