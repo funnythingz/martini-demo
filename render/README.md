@@ -7,6 +7,8 @@
 % go get github.com/martini-contrib/render
 ```
 
+> run
+
 ```
 % go run app.go
 ```
