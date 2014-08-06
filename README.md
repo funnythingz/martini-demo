@@ -1,6 +1,6 @@
 # martini demo
 
-create demo build in martini.
+create demo build in [martini](http://martini.codegangsta.io/).
 
 > setup
 
