@@ -9,11 +9,11 @@ type IndexViewModel struct {
     Description string
 }
 
-func Index(r render.Render) {
+func IndexRender(r render.Render) {
 
     viewModel := IndexViewModel{
-        "Index",
-        "description",
+        "Martini Demo",
+        "Description",
     }
 
     r.HTML(200, "index", viewModel)

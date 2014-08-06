@@ -21,7 +21,8 @@ func app() {
         r.Redirect("/")
     })
 
-    m.Get("/", layout.Index)
+    m.Get("/", layout.IndexRender)
+    m.Get("/about", layout.AboutRender)
 
     m.Run()
 }
