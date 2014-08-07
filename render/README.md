@@ -13,7 +13,7 @@
 % go run app.go
 ```
 
-> use gin & run
+> use gin
 
 ```
 % go get github.com/codegangsta/gin
