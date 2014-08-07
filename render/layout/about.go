@@ -19,7 +19,7 @@ func AboutRender(r render.Render) {
     skill := []string{"TypeScript", "Sass/Compass", "Go"}
 
     profile := Profile{
-        "funnythingz",
+        "hogeyan",
         skill,
     }
 
