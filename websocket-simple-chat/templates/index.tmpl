@@ -1,0 +1,39 @@
+<div class="container">
+
+  <div class="page-header">
+    <form class="form-horizontal" id="form">
+      <fieldset>
+        <div class="row">
+          <div class="col-md-9">
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputMessage" placeholder="new message">
+            </div>
+          </div>
+          <div class="col-md-2 col-md-offset-1">
+            <div class="form-group">
+              <button type="submit" class="btn btn-block btn-primary">Post Message</button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="row">
+    <ul id="messages" class="list-group">
+      {{range .}}
+      <li class="list-group-item" data-id="{{.CreateAt}}">
+        <div class="flex">
+          <div class="-item">
+            {{.Message}}
+          </div>
+          <div class="-item-icon48 text-right">
+            <button class="btn btn-block btn-default btn-sm delete-entry" data-method="delete" data-id="{{.CreateAt}}"><span class="glyphicon glyphicon-remove"></span></button>
+          </div>
+        </div>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+
+</div>

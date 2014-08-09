@@ -1,0 +1,100 @@
+.flex > .-item, .flex > .-item-icon18, .flex > .-item-icon24, .flex > .-item-icon32, .flex > .-item-icon48, .flex > .-item-icon72 {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.flex {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.flex > .-item-icon18 {
+  width: 18px;
+  padding-right: 8px;
+}
+.flex > .-item-icon18:last-child {
+  padding-left: 8px;
+  padding-right: 0;
+}
+.flex > .-item-icon18 > .-icon {
+  width: 18px;
+  height: 18px;
+  -webkit-background-size: 18px 18px;
+  -moz-background-size: 18px 18px;
+  -o-background-size: 18px 18px;
+  background-size: 18px 18px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.flex > .-item-icon24 {
+  width: 24px;
+  padding-right: 8px;
+}
+.flex > .-item-icon24:last-child {
+  padding-left: 8px;
+  padding-right: 0;
+}
+.flex > .-item-icon24 > .-icon {
+  width: 24px;
+  height: 24px;
+  -webkit-background-size: 24px 24px;
+  -moz-background-size: 24px 24px;
+  -o-background-size: 24px 24px;
+  background-size: 24px 24px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.flex > .-item-icon32 {
+  width: 32px;
+  padding-right: 8px;
+}
+.flex > .-item-icon32:last-child {
+  padding-left: 8px;
+  padding-right: 0;
+}
+.flex > .-item-icon32 > .-icon {
+  width: 32px;
+  height: 32px;
+  -webkit-background-size: 32px 32px;
+  -moz-background-size: 32px 32px;
+  -o-background-size: 32px 32px;
+  background-size: 32px 32px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.flex > .-item-icon48 {
+  width: 48px;
+  padding-right: 8px;
+}
+.flex > .-item-icon48:last-child {
+  padding-left: 8px;
+  padding-right: 0;
+}
+.flex > .-item-icon48 > .-icon {
+  width: 48px;
+  height: 48px;
+  -webkit-background-size: 48px 48px;
+  -moz-background-size: 48px 48px;
+  -o-background-size: 48px 48px;
+  background-size: 48px 48px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.flex > .-item-icon72 {
+  width: 72px;
+  padding-right: 8px;
+}
+.flex > .-item-icon72:last-child {
+  padding-left: 8px;
+  padding-right: 0;
+}
+.flex > .-item-icon72 > .-icon {
+  width: 72px;
+  height: 72px;
+  -webkit-background-size: 72px 72px;
+  -moz-background-size: 72px 72px;
+  -o-background-size: 72px 72px;
+  background-size: 72px 72px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
