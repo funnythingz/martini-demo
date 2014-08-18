@@ -1,4 +1,4 @@
-package layout
+package main
 
 import(
     "github.com/martini-contrib/render"

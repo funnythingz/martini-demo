@@ -3,10 +3,9 @@ package main
 import(
     "github.com/go-martini/martini"
     "github.com/martini-contrib/render"
-    "./Layout"
 )
 
-func app() {
+func main() {
 
     m := martini.Classic()
 
@@ -21,12 +20,9 @@ func app() {
         r.Redirect("/")
     })
 
-    m.Get("/", layout.IndexRender)
-    m.Get("/about", layout.AboutRender)
+    m.Get("/", IndexRender)
+    m.Get("/about", AboutRender)
 
     m.Run()
-}
 
-func main() {
-    app()
 }
